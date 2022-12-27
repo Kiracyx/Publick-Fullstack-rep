@@ -7,30 +7,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2nd project on HTML</title>
     <style>
+        body {
+            background-color: rgb(176, 204, 204);
+            /* line-height: 20px; */
+        }
+
+        .main-header {
+            text-align: center;
+            padding: 20px;
+            border: 5px black solid;
+            border-style: double;
+        }
+
+        .main-header h1 {
+            font-size: 28px;
+        }
+
+        h3,
+        footer,
+        p {
+            text-align: center;
+        }
+
         h3 {
             font-size: 20px;
             color: rgb(11, 16, 16);
         }
 
-        body {
-            background-color: rgb(176, 204, 204);
+        p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        span {
+            font-size: 20px;
+        }
+
+        .img-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .Eva-imgage1 {
+            width: 1000px;
+            display: block;
+            border-radius: 50px;
+            border-style:  double;
+        }
+
+        .last-row {
+            font-weight: 1000;
+        }
+
+        footer {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 3px  black dashed;
+            border-style: ridge;
         }
     </style>
 </head>
 
 <body>
-    <header id="main-header">
-        <h1>Home page</h1>
+    <header class="main-header">
+        <h1>Evangelion fan page</h1>
     </header>
-    <main id="main-content">
+    <main class="main-content">
         <section>
             <h3>Heading 1</h3>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quidem?
+                </span>
+            </p>
             <h3>Heading 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quidem?
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quidem?
+                </span>
             </p>
         </section>
+        <section>
+            <div class="img-wrapper">
+                <img class="Eva-imgage1"
+                    src="./assets/images/AAAABWBteOyyuZo4IVBEFilSIgWnP7-EoBoP_LwxADUxrv0iRC90_lKNwOEDJ5NrHUsp4J0aAJI-jLflGsMGA5-Wy3t1xfx-q5wxtrr1.jpg"
+                    alt="Evangelion Eva01 picture">
+            </div>
+            <p><span>Lorem ipsum dolor sit.</span>
+            </p>
+
+            <p><span>Amet accusantium nobis eligendi!</span>
+            </p>
+
+            <p><span>Quidem pariatur ratione aspernatur!</span>
+            </p>
+
+
+        </section>
     </main>
-    <footer>2021</footer>
+    <footer>
+        <p class="last-row">Laborum architecto facere culpa.
+        </p>
+        2021
+    </footer>
 
 </body>
 
