@@ -7,7 +7,7 @@ body {
 }
 
 img {
-  display: block;
+  display: inline;
   width: 400px;
   border: 4px red solid;
   margin-left: 10 px;
