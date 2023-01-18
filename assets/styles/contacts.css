@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 400px;
+  border: 4px red solid;
+  margin-left: 10 px;
+  padding: 20 px 15 px;
+}
+
+.div1 {
+  border: 2px solid black;
+  padding: 10px;
+}
