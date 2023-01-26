@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  /* height: 300px; */
+  border: 3px dashed red;
+}
+
+.inline-div {
+  display: inline-block;
+  border: 2px solid black;
+  width: 40%;
+  height: 100%;
+}
