@@ -7,8 +7,15 @@ body {
   font-size: 20px;
   text-align: center;
   color: red;
+  background-color: aliceblue;
 }
 
 p::first-letter {
   font-size: 26px;
+  color: blue;
+}
+
+p {
+  height: 30px;
+  font-weight: bold;
 }
