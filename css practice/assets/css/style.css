@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+
+p::first-letter {
+  font-size: 26px;
+}
