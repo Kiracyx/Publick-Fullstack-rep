@@ -6,8 +6,13 @@
 body {
   font-size: 20px;
   text-align: center;
+  height: 30px;
   color: red;
   background-color: aliceblue;
+  border: 2px solid blue;
+  border-top-color: black;
+  border-bottom-width: 5px;
+  font-weight: bold;
 }
 
 p::first-letter {
@@ -16,6 +21,5 @@ p::first-letter {
 }
 
 p {
-  height: 30px;
-  font-weight: bold;
+  
 }
