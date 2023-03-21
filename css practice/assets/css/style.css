@@ -6,7 +6,7 @@
 body {
   font-size: 20px;
   text-align: center;
-  
+
   color: red;
   background-color: aliceblue;
   border: 2px solid blue;
@@ -36,4 +36,16 @@ p::first-letter {
 
 .par2 {
   outline: black solid 2px;
+}
+
+span {
+  display: block;
+}
+
+.f1 {
+  display: inline-block;
+}
+
+.f2 {
+  height: 60px;
 }
