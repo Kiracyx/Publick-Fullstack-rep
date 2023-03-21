@@ -28,8 +28,12 @@ p::first-letter {
   max-width: 700px;
 } */
 
-p {
+.par1 {
   padding: 50px;
   padding-left: 10px;
   margin-top: 50px;
+}
+
+.par2 {
+  outline: black solid 2px;
 }
