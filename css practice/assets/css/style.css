@@ -20,10 +20,16 @@ p::first-letter {
   color: blue;
 }
 
-p {
+/* p {
   min-height: 350px;
   height: 500px;
   min-width: 300px;
   width: 100%;
   max-width: 700px;
+} */
+
+p {
+  padding: 50px;
+  padding-left: 10px;
+  margin-top: 50px;
 }
