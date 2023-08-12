@@ -1,0 +1,10 @@
+body {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 26px;
+    color: blueviolet;
+}
