@@ -9,12 +9,15 @@ body {
   margin-left: 0px;
   margin-right: 0px;
 
-  border-top: black;
+  
   border: 2px blue solid;
+  border-top-color: black;
+  border-bottom-width:5px;
+  height: 30px;
 }
 
 p::first-letter {
   font-size: 26px;
   color: blueviolet;
-  height: 30px;
+  
 }
