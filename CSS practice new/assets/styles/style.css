@@ -6,18 +6,23 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgb(253, 185, 244);
 
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0;
 
-  
-  border: 2px blue solid;
+  border: 2px  solid blue;
   border-top-color: black;
   border-bottom-width:5px;
-  height: 30px;
 }
 
 p::first-letter {
   font-size: 26px;
   color: blueviolet;
   
+}
+
+p {
+  width: 100%;
+  max-width: 700px;
+  min-width: 300px;
+
+  min-height: 350px;
 }
