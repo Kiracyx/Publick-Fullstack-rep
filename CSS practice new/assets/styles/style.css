@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 20px;
   color: red;
@@ -18,11 +22,18 @@ p::first-letter {
   color: blueviolet;
   
 }
-
+/*
 .p1 {
   width: 100%;
   max-width: 700px;
   min-width: 300px;
 
   min-height: 350px;
+}
+*/
+
+.p1 {
+  padding: 50px;
+  padding-left: 10px;
+  margin-top: 50px;
 }
