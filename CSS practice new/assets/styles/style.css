@@ -37,3 +37,7 @@ p::first-letter {
   padding-left: 10px;
   margin-top: 50px;
 }
+
+.p2 {
+  outline: 2px solid black;
+}
