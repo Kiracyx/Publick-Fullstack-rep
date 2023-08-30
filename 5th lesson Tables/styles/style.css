@@ -1,0 +1,12 @@
+.table-ages {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+
+.table-ages td {
+    border: 1px solid black;
+}
+
+.table-ages > tbody > tr > td {
+    background-color: rgb(167, 224, 224);
+}
