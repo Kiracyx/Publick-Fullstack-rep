@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: rgb(209, 247, 250);
+  text-align: center;
+
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.table-1 {
+  border: 2px solid rgb(79, 204, 204);
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.td-name {
+  padding: 100px 30px 10px 30px;
+}
+
+.table-1 > tbody > tr > td {
+  /* padding: 10px 30px 10px 30px; */
+}
+
+.table-1 > thead > tr > td > pre {
+  background-color: rgb(79, 204, 204);
+}
+
+.table-1 > tfoot > tr > td {
+  background-color: rgb(79, 204, 204);
+}
+
+.a-tbody1 {
+  outline: none;
+  text-decoration: none;
+
+  background-color: rgb(24, 189, 2);
+  /* border: 2px solid rgb(79, 204, 204); */
+  color: white;
+
+  padding: 3px 4px;
+}
+
+.a-tbody2 {
+  outline: none;
+  text-decoration: none;
+
+  background-color: rgb(2, 15, 136);
+  /* border: 2px solid rgb(79, 204, 204); */
+  color: white;
+
+  margin-left: 15px;
+  padding: 3px 4px;
+}
+
+.a-tfoot {
+  outline: none;
+  text-decoration: none;
+  background-color: rgb(79, 204, 204);
+}
+
+.wrapper1 {
+  /* padding: 0 50px 0 50px; */
+  /* margin: 0 30px 0 30px; */
+  max-width: 300px;
+}
+
+.icon {
+  margin: 1px;
+  width: 25px;
+  background-color: rgb(79, 204, 204);
+}
+
+.icon:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 30%;
+  border: 3px double blue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.li-style {
+  width: 16px;
+}
+
+.prt {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  /* bottom: 100px; */
+  top: 90px;
+  right: 625px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid rgb(209, 247, 250);
+  /* margin: -25%; */
+}
