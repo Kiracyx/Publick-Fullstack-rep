@@ -10,16 +10,12 @@
 
 .table-1 {
   border: 2px solid rgb(79, 204, 204);
-  margin-left: 30%;
-  margin-top: 5%;
+  margin-left: 35%;
+  margin-top: 4%;
 }
 
 .td-name {
   padding: 100px 30px 10px 30px;
-}
-
-.table-1 > tbody > tr > td {
-  /* padding: 10px 30px 10px 30px; */
 }
 
 .table-1 > thead > tr > td > pre {
@@ -53,6 +49,14 @@
   padding: 3px 4px;
 }
 
+.a-tbody1:hover {
+  border: 2px ridge rgb(82, 8, 8);
+}
+
+.a-tbody2:hover {
+  border: 2px ridge rgb(82, 8, 8);
+}
+
 .a-tfoot {
   outline: none;
   text-decoration: none;
@@ -60,9 +64,16 @@
 }
 
 .wrapper1 {
-  /* padding: 0 50px 0 50px; */
+  padding: 30px 30px 10px 30px;
   /* margin: 0 30px 0 30px; */
   max-width: 300px;
+}
+
+.wrapper2 {
+  padding: 15px;
+
+  border-top: 1px solid rgb(221, 219, 219);
+  border-bottom: 1px solid rgb(221, 219, 219);
 }
 
 .icon {
@@ -79,11 +90,11 @@
 
 ul {
   list-style: none;
-  padding: 0;
+  padding: 0 40px 30px 30px;
 }
 
 .li-style {
-  width: 16px;
+  width: 12px;
 }
 
 .prt {
@@ -91,8 +102,8 @@ ul {
   width: 150px;
   position: absolute;
   /* bottom: 100px; */
-  top: 90px;
-  right: 625px;
+  top: 80px;
+  right: 565px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid rgb(209, 247, 250);
