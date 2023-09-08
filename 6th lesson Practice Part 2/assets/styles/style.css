@@ -14,15 +14,16 @@
 }
 
 .upper-elem {
-  height: 100px;
+  height: 25vh;
   background-color: rgb(79, 204, 204);
 }
 
-.main-prt {
+.main {
   padding: 30px 30px 15px 30px;
 }
 
 .avtr {
+  margin-top: -42%;
   height: 150px;
   width: 150px;
 
@@ -86,7 +87,7 @@ ul {
   padding: 30px 30px 15px 30px;
 }
 
-.footer {
+.socials {
   background-color: rgb(79, 204, 204);
 }
 
