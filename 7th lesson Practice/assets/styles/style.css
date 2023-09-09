@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+
+#tariffs {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#tariffs td {
+    border: 1px solid black;
+}
