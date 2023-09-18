@@ -100,10 +100,10 @@ ul {
 .prt {
   height: 150px;
   width: 150px;
-  position: absolute;
-  /* bottom: 100px; */
-  top: 80px;
-  right: 565px;
+  position: relative;
+  /* bottom: 30%; */
+  top: -80px;
+  /* right: 6%; */
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid rgb(209, 247, 250);
