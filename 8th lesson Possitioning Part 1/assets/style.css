@@ -1,28 +1,42 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-    height: 200vh;
+  height: 200vh;
 }
 
 .fixed {
-    position: fixed;
+  position: fixed;
 }
 
 .top {
-    top: 0;
+  top: 0;
 }
 
 .left {
-    left: 0;
+  left: 0;
 }
 
 .right {
-    right: 0;
+  right: 0;
 }
 
 .bottom {
-    bottom: 0;
+  bottom: 0;
+}
+
+.p1 {
+    background-color: bisque;
+}
+.p2 {
+    background-color: rgb(143, 84, 11);
+}
+.p3 {
+    background-color: rgb(94, 97, 202);
+}
+
+.p4 {
+    background-color: rgb(233, 119, 159);
 }
