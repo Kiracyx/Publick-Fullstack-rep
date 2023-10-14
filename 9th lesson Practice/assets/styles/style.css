@@ -21,27 +21,40 @@
 
 .dis:hover {
   transform: scale(1.1, 1.1);
+  transition-duration: 300ms;
 }
 
 .elem-1 {
   top: 30%;
   left: 10vh;
 
-  background: linear-gradient(to right, #fdc9b0, #f84b6b);
+  background: linear-gradient(to right, #2e211a, #f84b6b);
+}
+
+.elem-1:hover {
+  background: linear-gradient(to right, #411e1e, #fa0431);
 }
 
 .elem-2 {
   top: 30%;
   left: 77.5vh;
 
-  background: linear-gradient(to right, #a9d4f8, #028ae4);
+  background: linear-gradient(to right, #1d2329, #0272bd);
+}
+
+.elem-2:hover {
+  background: linear-gradient(to right, #273646, #0d99f7);
 }
 
 .elem-3 {
   top: 30%;
   left: 145vh;
 
-  background: linear-gradient(to right, #a0d6d2, #019e8c);
+  background: linear-gradient(to right, #233332, #019e8c);
+}
+
+.elem-3:hover {
+  background: linear-gradient(to right, #253b3a, #02cfb7);
 }
 
 .round {
@@ -61,4 +74,17 @@
 .r-2 {
   top: 50%;
   left: 55%;
+}
+
+.par {
+  text-align: left;
+  color: whitesmoke;
+
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.middlepar {
+  margin-top: 5%;
+  font-size: 24px;
 }
