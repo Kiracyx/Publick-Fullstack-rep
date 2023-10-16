@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /* margin: 0; */
+  margin: 0;
   font-family: sans-serif;
 }
 
@@ -58,7 +58,7 @@
   background: linear-gradient(to right, #253b3a, #02cfb7);
 }
 
-.round {
+.circle {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.2);
 
