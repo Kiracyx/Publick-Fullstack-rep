@@ -1,4 +1,58 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    border: 5px solid black;
+
+    background-image: url(../images/rio_cafe_img.jpg);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  /* background-image: radial-gradient(#000, #255, rgb(29, 9, 9), rgb(242, 112, 112)); */
+  background-image: linear-gradient(to left, #000, #255);
+  color: antiquewhite;
+
+  height: 50px;
+}
+
+.nav-item {
+  align-self: center;
+  flex: 0 1 100px;
+}
+
+.first {
+    font-size: larger;
+    font-style: italic;
+}
+
+.second {
+  flex: 0 1 500px;
+}
+
+.nav-p {
+  display: inline-block;
+
+  margin-left: 50px;
+}
+
+.button {
+    font-size: smaller;
+    padding: 5px;
+
+    border: 2px solid antiquewhite;
+}
+
+.button-p {
+    padding-left: 10px;
 }
