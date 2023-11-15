@@ -10,12 +10,73 @@
     />
   </head>
   <body>
-    <form class="reg=form">
-        <fieldset> Register
-            <legend>
+    <form>
 
-            </legend>
-        </fieldset>
+      <fieldset class="reg=form">
+        <legend class="legend">Register</legend>
+        <p>Create your account. It's free and only takes a minute.</p>
+        <label>
+          <input 
+          type="text"
+          id="First name"
+          name="First name"
+          placeholder="First Name"
+          autofocus
+          required>
+        </label>
+
+        <label>
+          <input
+          type="text"
+          id="Last name"
+          name="Last name"
+          placeholder="Last Name"
+          required>
+        </label>
+
+        <label>
+          <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required>
+        </label>
+
+        <label>
+          <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          required>
+        </label>
+
+        <label>
+            <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Confirm Password"
+            required>
+        </label>
+
+        <label>
+            <input
+            type="checkbox"
+            id="checkbox"
+            name="terms"
+            required>
+            I accept the <a href=""> Terms of Use</a>
+            &
+            <a href="">Privacy Policy</a>
+        </label>
+
+        <label>
+            <button>Register Now</button>
+        </label>  
+      </fieldset>
+
     </form>
   </body>
 </html>
