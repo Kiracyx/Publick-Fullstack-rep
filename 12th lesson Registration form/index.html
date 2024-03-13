@@ -9,32 +9,36 @@
       href="../12th lesson Registration form/styles/style.css"
     />
   </head>
-  <body>
-    <form>
+  <body class="body">
+    <form class="form">
 
-      <fieldset class="reg=form">
+      <fieldset class="reg-form">
         <legend class="legend">Register</legend>
-        <p>Create your account. It's free and only takes a minute.</p>
-        <label>
+        <p class="parag-leg">Create your account. It's free and only takes a minute.</p>
+        
+        <div class="full-name">
+        <label class="lb-1 ">
           <input 
           type="text"
-          id="First name"
-          name="First name"
+          id="first-name"
+          name="First Name"
           placeholder="First Name"
           autofocus
           required>
         </label>
 
-        <label>
+        <label class="lb-2">
           <input
           type="text"
-          id="Last name"
-          name="Last name"
+          id="last-name"
+          name="Last Name"
           placeholder="Last Name"
           required>
         </label>
+      </div>
 
-        <label>
+      <div class="epc-div">
+        <label class="lb-3">
           <input
           type="email"
           id="email"
@@ -43,7 +47,7 @@
           required>
         </label>
 
-        <label>
+        <label class="lb-4">
           <input
           type="password"
           id="password"
@@ -52,29 +56,32 @@
           required>
         </label>
 
-        <label>
+        <label class="lb-5">
             <input
             type="password"
-            id="password"
+            id="password-comf"
             name="password"
             placeholder="Confirm Password"
             required>
         </label>
+      </div>
 
-        <label>
+        <label class="checkbox">
             <input
             type="checkbox"
             id="checkbox"
             name="terms"
             required>
-            I accept the <a href=""> Terms of Use</a>
+            I accept the <a class="terms-link" href="#"> Terms of Use</a>
             &
-            <a href="">Privacy Policy</a>
+            <a class="terms-link" href="#">Privacy Policy</a>
         </label>
 
-        <label>
-            <button>Register Now</button>
-        </label>  
+        <label class="button-lbl">
+            <button class="reg-button">
+              Register Now
+            </button>
+        </label>
       </fieldset>
 
     </form>
