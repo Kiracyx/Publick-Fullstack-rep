@@ -96,6 +96,11 @@
   color: #45a146;
 }
 
+.conf-btn {
+  display: flex;
+  justify-content: center;
+}
+
 .reg-button {
   color: rgb(244, 244, 244);
   background: linear-gradient(#a7eda8, #448244);
@@ -103,14 +108,14 @@
 
 .reg-button {
   border: 1px solid #448244;
-  width: 100%;
-  height: 20px;
+  width: 50%;
+  height: 30px;
 
   transition: width 200ms linear, height 200ms linear;
 }
 
 .reg-button:hover {
   border: 2px solid green;
-  width: 102%;
-  height: 107%;
+  width: 52%;
+  height: 35px;
 }
