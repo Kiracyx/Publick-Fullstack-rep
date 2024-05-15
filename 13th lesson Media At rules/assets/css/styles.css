@@ -3,41 +3,7 @@
   margin: 0;
 }
 
-.page-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
-  border: 1px solid red;
-
-  background-color: #ac92b8;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-.logo-wrapper {
-    max-width: 200px;
-    clip-path: circle(40%);
-}
-.logo {
-    width: 100%;
-}
-.navigation {
-    
-}
-.nav-list {
-    display: flex;
-
-    list-style: none;
-}
-.nav-item {
-    
-}
-.nav-link {
-    
-}
 
 @media screen and (max-width: 450px){
     .page-header {
