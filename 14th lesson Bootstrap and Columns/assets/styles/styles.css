@@ -7,13 +7,13 @@
 
 .wrapper {
   border: 2px solid red;
-  
+
   padding: 10px;
 }
 
 .elem {
   border: 4px double blue;
-  
+
   padding: 5px 0;
 
   text-align: center;
