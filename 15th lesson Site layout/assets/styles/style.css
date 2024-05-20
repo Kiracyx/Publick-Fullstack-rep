@@ -1,10 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Montserrat sans-serif;
+  font-family: Montserrat;
 }
 
 .hr-line {
@@ -16,14 +19,16 @@
   align-items: center;
 
   margin-top: 10px;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-bottom: 10px;
 
   width: 50%;
 }
 
 .main-header {
-    padding: 10px 40%;
+    padding-top: 10px;
+    padding-left: 40%;
+    padding-bottom: 10px;
 
     font-size: 36px;
 }
@@ -31,7 +36,7 @@
 .art1 {
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .flex {
@@ -56,5 +61,22 @@
 
 .a-style {
     color: #f45128;
-    cursor: grabbing;
+    text-decoration: none;
+
+    font-size: 24px;
+}
+
+.art-header {
+  margin: 20px;
+  margin-left: 0;
+
+  font-size: 57px;
+}
+
+.art-descr {
+  padding-right: 400px;
+
+  color: #737373;
+
+  font-size: 38px;
 }
