@@ -10,6 +10,15 @@
   font-family: Montserrat;
 }
 
+.img-header {
+  height: 100vh;
+  color: rgb(0, 0, 0);
+  background-image: url(../images/Header\ picture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
 .hr-line {
   display: inline-block;
 
@@ -26,17 +35,17 @@
 }
 
 .main-header {
-    padding-top: 10px;
-    padding-left: 40%;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 40%;
+  padding-bottom: 10px;
 
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .art1 {
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
 
 .flex {
@@ -60,10 +69,10 @@
 }
 
 .a-style {
-    color: #f45128;
-    text-decoration: none;
+  color: #f45128;
+  text-decoration: none;
 
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .art-header {
