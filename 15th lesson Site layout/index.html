@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
   <body>
-    <div>
+    <div class="content">
       <header class="header-top">
         <article class="nav-bar">
           <div class="header-img-wrapper">
@@ -38,13 +38,16 @@
             </h4>
           </div>
           <div class="header-btns row">
-            <button class="header-btn btn1">
-              Play market
-            </button>
-            <button class="header-btn btn2">
-              App store
-            </button>
+            <button class="header-btn btn1">Play market</button>
+            <button class="header-btn btn2">App store</button>
           </div>
+            <picture>
+              <source
+                srcset="/assets/images/Article1Phone.png"
+                media="(orientation: portrait)"
+              />
+              <img class="phones-pic" src="./assets/svg/Header_phones.svg" alt="Food app" />
+            </picture>
         </article>
       </header>
       <main>
