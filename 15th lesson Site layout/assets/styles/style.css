@@ -26,7 +26,7 @@
   align-items: center;
 }
 
-.header-img-wrapper {
+.header-logo-wrapper {
   padding-left: 30px;
   max-width: 200px;
 
@@ -112,23 +112,21 @@
   z-index: 1;
 }
 
-
 .btn1 {
   padding: 10px;
-  
+
   background-color: #f45128;
   border: 1px solid #f45128;
-  
+
   cursor: pointer;
 }
 
 .btn2 {
   padding: 10px 27px;
-  
+
   background-color: rgba(0, 0, 0, 0.4);
-  
+
   cursor: pointer;
-  
 }
 
 .btn1:hover {
@@ -154,7 +152,7 @@
   text-align: center;
   align-items: center;
 
-  margin-top: 300px;
+  margin-top: 400px;
   margin-left: 25%;
   margin-bottom: 10px;
 
@@ -166,13 +164,27 @@
   padding-left: 40%;
   padding-bottom: 10px;
 
+  margin-top: 60px;
+
   font-size: 36px;
 }
 
-.art1 {
+.art1,
+.art2 {
   justify-content: center;
   align-items: center;
   height: 90vh;
+
+  flex-wrap: nowrap;
+}
+
+.text-wrapper1 {
+  max-width: 1000px;
+}
+
+.text-wrapper2 {
+  /* margin-left: 35px; */
+  max-width: 800px;
 }
 
 .flex {
@@ -203,16 +215,70 @@
 }
 
 .art-header {
-  margin: 20px;
+  margin: 40px;
   margin-left: 0;
 
   font-size: 57px;
 }
 
 .art-descr {
-  padding-right: 400px;
+  padding-right: 200px;
 
   color: #737373;
 
   font-size: 38px;
+}
+
+.art-descr2 {
+  padding-right: 30px;
+
+  color: #737373;
+
+  font-size: 38px;
+}
+
+.img-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  color: rgb(254, 254, 254);
+  background-image: url(../svg/Footer_back_img.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 509px;
+}
+
+.footer-h1 {
+  font-size: 40px;
+}
+
+.footer-h4 {
+  font-size: 24px;
+  font-weight: 400;
+
+  margin-top: 40px;
+}
+
+.footer-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 40px 80px 0 80px;
+}
+
+.footer-logo-wrapper {
+  padding-left: 30px;
+  max-width: 200px;
+
+  margin: 0 0 10px 60px;
+}
+
+.tg-footer {
+  width: 40px;
+  filter: invert(37%) sepia(68%) saturate(1422%) hue-rotate(342deg)
+    brightness(97%) contrast(98%);
 }
