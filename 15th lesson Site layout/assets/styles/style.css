@@ -10,6 +10,8 @@
   font-family: Montserrat;
 }
 
+/* Header */
+
 .header-top {
   height: 100vh;
 }
@@ -142,6 +144,8 @@
   z-index: 0;
 }
 
+/* Main */
+
 .hr-line {
   display: inline-block;
 
@@ -237,6 +241,8 @@
   font-size: 24px;
 }
 
+/* Footer */
+
 .img-footer {
   display: flex;
   justify-content: space-around;
@@ -282,6 +288,8 @@
   filter: invert(37%) sepia(68%) saturate(1422%) hue-rotate(342deg)
     brightness(97%) contrast(98%);
 }
+
+/* Media */
 
 @media screen and (max-width: 430px) {
   .header-logo-wrapper {
