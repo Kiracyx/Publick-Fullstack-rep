@@ -257,6 +257,8 @@
   background-position: center;
 
   height: 509px;
+
+  background-attachment: fixed;
 }
 
 .footer-h1 {
