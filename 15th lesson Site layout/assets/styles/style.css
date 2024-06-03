@@ -131,6 +131,10 @@
   border: 1px solid #f45128;
 }
 
+.phones-pic-wrapper {
+  max-width: 400px;
+}
+
 .phones-pic {
   transform: translate(0, -13%);
   height: 700px;
@@ -286,6 +290,7 @@
 
   .img-header {
     background-image: none;
+    justify-content: center;
   }
 
   .header-text-wrapper {
@@ -312,15 +317,17 @@
 
     text-align: center;
 
+    margin-top: 0;
+
     padding: 0 20px;
   }
 
   .header-btns {
     flex-direction: column;
 
-    height: 150px;
+    height: 200px;
 
-    margin: 0;
+    margin-top: 10px;
   }
 
   .btn2 {
@@ -332,9 +339,18 @@
     cursor: pointer;
   }
 
-  .phones-pic {
-    max-width: 400px;
+  .phones-pic-wrapper {
+    max-width: 300px;
+    max-height: 400px;
   }
+
+  .phones-pic {
+    width: 100%;
+    height: 100%;
+
+    transform: none;
+  }
+  
 
   .media-header {
     display: block;
