@@ -1,13 +1,19 @@
-let message = 'Hello, world!!!';
+let message = "Hello, world!!!";
 
-alert (message);
+alert(message);
 
 message = 12345;
 
-alert (message);
+alert(message);
 
-let a = 'Bugatti';
+let a = "Bugatti";
 
-let b = 'Veiron';
+let b = "Veiron";
 
-alert ( a + ' ' + b );
+alert(a + " " + b);
+
+let c = "22";
+
+let d = 2;
+
+alert(c - d);
