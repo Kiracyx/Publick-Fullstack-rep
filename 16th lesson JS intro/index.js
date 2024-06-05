@@ -1,17 +1,17 @@
-let message = "Hello, world!!!";
+const num = 101;
+const str = "One o one";
+const sum = num + str;
 
-alert(message);
+console.log(sum);
 
-message = 12345;
+const bool = true;
+const bool1 = false;
+const sum1 = bool - bool1;
 
-alert(message);
+console.log(sum1);
 
-let a = "Bugatti";
-let b = "Veiron";
+const str1 = "101";
+const num1 = 101;
+const sum2 = Number(str1) + num1;
 
-alert(a + " " + b);
-
-let c = "22";
-let d = 2;
-
-alert(c - d);
+console.log(sum2);
