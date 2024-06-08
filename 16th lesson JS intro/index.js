@@ -1,6 +1,8 @@
 const a = 2;
 const a1 = 5;
 
+console.log ("a = ", a, "a1 = ", a1)
+
 if (a > a1) {
   console.log("a bigger than a1");
 } else {
