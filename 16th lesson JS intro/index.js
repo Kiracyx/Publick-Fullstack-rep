@@ -17,10 +17,20 @@ if (b > b1) {
 }
 
 const c = 5;
-const c1 = '5';
+const c1 = "5";
 
 if (c == c1 && c === c1) {
   console.log("c equals с1");
 } else {
   console.log("c not equals c1");
+}
+
+const d = 5;
+const d1 = 6;
+const d2 = 5;
+
+if (d === d1 && d === d2) {
+  console.log("d equals d1 or d2");
+} else {
+  console.log("d not equals d1 or d2");
 }
