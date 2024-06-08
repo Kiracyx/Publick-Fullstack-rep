@@ -15,3 +15,12 @@ if (b > b1) {
 } else {
   console.log("b less than b1");
 }
+
+const c = 5;
+const c1 = '5';
+
+if (c == c1 && c === c1) {
+  console.log("c equals с1");
+} else {
+  console.log("c not equals c1");
+}
