@@ -91,14 +91,13 @@ console.log("f`5 equals", Math.pow(f, 5));
 
 //...
 console.log("11 task");
-const g = 25;
-const g1 = "a";
-let sum = "";
+const g = "Hello";
+sum = "";
 
-if ((sum = Number(g) + Number(g1))) {
-  console.log("It's a number. It's", sum);
+if (sum = isNaN(g)) {
+  console.log("Not a number");
 } else {
-  console.log("Not a number. It is a", sum);
+  console.log("It's a number.");
 }
 //...
 console.log("12 task");
@@ -112,11 +111,6 @@ if ((h1 = typeof h)) {
 }
 //...
 console.log("13 task");
-const j = 525;
-let j1 = "";
+let j = 525;
 
-if ((j1 = j * 2)) {
-  console.log("It's a", j1);
-} else {
-  console.log("It isn't a", j1);
-}
+console.log("It's a", (sum = ++j));
