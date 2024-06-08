@@ -1,17 +1,9 @@
-const num = 101;
-const str = "One o one";
-const sum = num + str;
+const age = 27;
+const height = 177;
+const foot = 20;
 
-console.log(sum);
-
-const bool = true;
-const bool1 = false;
-const sum1 = bool - bool1;
-
-console.log(sum1);
-
-const str1 = "101";
-const num1 = 101;
-const sum2 = Number(str1) + num1;
-
-console.log(sum2);
+if ((age > 18 && height < 170) || foot < 15) {
+  console.log("Mr. Big Foot!");
+} else {
+  console.log("Looser, you have small foot!");
+}
