@@ -34,3 +34,12 @@ if (d === d1 && d === d2) {
 } else {
   console.log("d not equals d1 or d2");
 }
+
+let height = 181;
+let weight = 59;
+
+if (height > 175 && weight < 60) {
+  console.log("He/she is tall and thin");
+} else {
+    console.log("He/she is not tall and thin");
+}
