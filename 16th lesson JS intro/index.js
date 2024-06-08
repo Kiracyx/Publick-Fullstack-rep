@@ -1,9 +1,8 @@
-const age = 27;
-const height = 177;
-const foot = 20;
+const a = 2;
+const a1 = 5;
 
-if ((age > 18 && height < 170) || foot < 15) {
-  console.log("Mr. Big Foot!");
+if (a > a1) {
+  console.log("a bigger than a1");
 } else {
-  console.log("Looser, you have small foot!");
+  console.log("a less than a1");
 }
