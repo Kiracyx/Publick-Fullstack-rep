@@ -82,6 +82,21 @@ function solveQuadraticEquation(a, b, c) {
 
 console.log(solveQuadraticEquation(4, 0, -3));
 
+const getMonthName = function (monthIndex) {
+  let monthName = "";
+
+  switch (monthIndex) {
+    case 1: {
+      monthName = "January";
+      break;
+    }
+  }
+
+  return monthName;
+};
+
+console.log(getMonthName(1));
+
 // //...
 // console.log("1 task");
 // const a = 2;
