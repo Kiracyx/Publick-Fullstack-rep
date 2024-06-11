@@ -51,6 +51,37 @@ function isEven(number) {
 
 console.log(isEven(3));
 
+/**
+ * Solves quadratic equations
+ * @param {Number} a Coeff A
+ * @param {Number} b Coeff B
+ * @param {Number} c Coeff C
+ * @returns {Number[]} Roots of quadratic equation
+ */
+
+function solveQuadraticEquation(a, b, c) {
+  // type
+  if (
+    (typeof a !== "number" || typeof b !== "number" || typeof c !== "number") &&
+    (typeof a !== "number" || typeof b !== "number" || typeof c !== "number")
+  ) {
+    return null;
+  }
+
+  // convert
+  if (isNaN(a) || isNaN(b) || isNaN(c)) {
+    return null;
+  }
+
+  const D = Math.pow(b, 2) - 4 * a * c;
+  const x1 = (-b + Math.sqrt(D)) / (2 * a);
+  const x2 = (-b - Math.sqrt(D)) / (2 * a);
+
+  return [x1, x2];
+}
+
+console.log(solveQuadraticEquation(4, 0, -3));
+
 // //...
 // console.log("1 task");
 // const a = 2;
