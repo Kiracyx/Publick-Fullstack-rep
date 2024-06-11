@@ -6,7 +6,7 @@ const getSumOfTwo = function (num1, num2) {
     return false;
   }
 
-  const sum = parseFloat(num1) + parseFloat(num2);
+  const sum = Number(num1) + Number(num2);
 
   return sum;
 };
