@@ -5,9 +5,15 @@ const getSumOfTwo = function (num1, num2) {
   if (isNaN(num1) || isNaN(num2)) {
     return false;
   }
-  return parseFloat(num1) + parseFloat(num2);
+
+  const sum = parseFloat(num1) + parseFloat(num2);
+
+  return sum;
 };
-console.log(getSumOfTwo(num, str));
+
+const result = getSumOfTwo(num, str);
+
+console.log(result);
 // //...
 // console.log("1 task");
 // const a = 2;
