@@ -82,20 +82,43 @@ function solveQuadraticEquation(a, b, c) {
 
 console.log(solveQuadraticEquation(4, 0, -3));
 
-const getMonthName = function (monthIndex) {
-  let monthName = "";
+// const getMonthName = function (monthIndex) {
+//   let monthName = "";
 
-  switch (monthIndex) {
-    case 1: {
-      monthName = "January";
-      break;
-    }
+//   switch (monthIndex) {
+//     case 1: {
+//       monthName = "January";
+//       break;
+//     }
+//   }
+
+//   return monthName;
+// };
+
+// console.log(getMonthName(1));
+
+const number = Number(prompt("Введите число между 0 и 3", " "));
+
+switch (number) {
+  case 0: {
+    alert("Вы ввели число 0");
+    break;
   }
 
-  return monthName;
-};
+  case 1: {
+    alert("Вы ввели число 1");
+    break;
+  }
 
-console.log(getMonthName(1));
+  case 2:
+  case 3: {
+    alert("Вы ввели число 2, а может быть и 3");
+    break;
+  }
+
+  default:
+    alert("No in the list");
+}
 
 // //...
 // console.log("1 task");
