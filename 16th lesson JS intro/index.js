@@ -1,5 +1,5 @@
-const num = 2;
-const str = "3";
+const num = 100;
+const str = "10";
 
 const getSumOfTwo = function (num1, num2) {
   if (isNaN(num1) || isNaN(num2)) {
@@ -14,6 +14,47 @@ const getSumOfTwo = function (num1, num2) {
 const result = getSumOfTwo(num, str);
 
 console.log(result);
+
+function getMaxOfTwo(num1, num2) {
+  if (isNaN(num1) || isNaN(num2)) {
+    return false;
+  }
+
+  return Math.max(num1, num2);
+}
+
+console.log(getMaxOfTwo(num, str));
+
+function getMinOfTwo(num1, num2) {
+  if (isNaN(num1) || isNaN(num2)) {
+    return false;
+  }
+
+  return Math.min(num1, num2);
+}
+
+console.log(getMinOfTwo(num, str));
+
+const e = 223;
+
+function isItEven(num1) {
+  if (isNaN(num1)) {
+    return false;
+  }
+
+  const sum1 = num1 % 2;
+
+  return sum1;
+}
+
+const result1 = isItEven(e);
+
+if (result1 === 0) {
+  console.log("It's even");
+} else {
+  console.log("It's odd");
+}
+
 // //...
 // console.log("1 task");
 // const a = 2;
