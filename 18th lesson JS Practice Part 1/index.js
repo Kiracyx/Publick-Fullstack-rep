@@ -37,3 +37,19 @@ function getProdOfTwo(num1, num2) {
 const numOfTwoRes = getProdOfTwo(25, 2);
 
 console.log(numOfTwoRes);
+
+// Task 5
+
+function getDivOfTwo(num1, num2) {
+  const sumOfTwoDiv = num1 % num2;
+
+  if (sumOfTwoDiv === 0) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+
+  return;
+}
+
+getDivOfTwo(25, 25);
