@@ -5,10 +5,16 @@ function getRGBValues(ValueR = 0, ValueG = 0, ValueB = 0) {
 const result = getRGBValues(23, 100, 134);
 console.log(result);
 
-function avg(){
+function avg() {
   console.log(arguments);
 
-  return (num1+num2+num3)/arguments;
+  let sum = 0;
+
+  for (let i = 0; i < arguments.length; i++) {
+    sum += arguments[i];
+  }
+
+  return sum / arguments.length;
 }
 
 const avgRes = avg(5, 3);
