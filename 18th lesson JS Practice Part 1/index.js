@@ -53,3 +53,11 @@ function getDivOfTwo(num1, num2) {
 }
 
 getDivOfTwo(25, 25);
+
+// Task 6
+
+function getPowOfTwo(num1, num2) {
+  return Math.pow(num1, num2);
+}
+
+console.log(getPowOfTwo(5, 2));
