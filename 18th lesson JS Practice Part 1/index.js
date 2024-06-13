@@ -21,9 +21,19 @@ console.log(numRes);
 // Task 3
 
 function getSumOfTwoStrings(string1, string2) {
-    return string1 + string2;
-  }
-  
-  const stringRes = getSumOfTwoStrings("I'm going to seek you ", "28");
-  
-  console.log(stringRes);
+  return string1 + string2;
+}
+
+const stringRes = getSumOfTwoStrings("I'm going to seek you ", "28");
+
+console.log(stringRes);
+
+// Task 4
+
+function getProdOfTwo(num1, num2) {
+  return num1 * num2;
+}
+
+const numOfTwoRes = getProdOfTwo(25, 2);
+
+console.log(numOfTwoRes);
