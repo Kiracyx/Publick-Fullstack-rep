@@ -61,3 +61,11 @@ function getPowOfTwo(num1, num2) {
 }
 
 console.log(getPowOfTwo(5, 2));
+
+console.log("Task 7");
+
+function getSquareOfCircle(radius) {
+  return Math.PI * radius;
+}
+
+console.log(getSquareOfCircle(5));
