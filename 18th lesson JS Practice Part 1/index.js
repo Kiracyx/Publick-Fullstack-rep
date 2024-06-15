@@ -65,7 +65,15 @@ console.log(getPowOfTwo(5, 2));
 console.log("Task 7");
 
 function getSquareOfCircle(radius) {
-  return Math.PI * radius;
+  return Math.PI * Math.pow(radius, 2);
 }
 
 console.log(getSquareOfCircle(5));
+
+console.log("Task 8*");
+
+function calcNeededOper(num1, num2) {
+  return 
+}
+
+console.log(calcNeededOper(6, 8));
