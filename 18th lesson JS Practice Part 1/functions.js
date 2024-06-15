@@ -1,4 +1,4 @@
-console.log("Task 1");
+console.log("Functions. Task 1");
 
 function getText(text) {
   return "You wrote " + text;
@@ -88,38 +88,38 @@ function getSquareOfCircle(radius) {
 
 console.log(getSquareOfCircle(5));
 
-console.log("Task 8*");
+// console.log("Task 8*");
 
-function calcNeededOper(num1, num2) {
-  window.prompt("Введите желаемый оператор", "+");
+// function calcNeededOper(num1, num2) {
+//   window.prompt("Введите желаемый оператор", "+");
 
-  let op = num1 + num2;
+//   let op = num1 + num2;
 
-  switch (op) {
-    case "+": {
-      op = num1 + num2;
-      break;
-    }
-  }
-  switch (op) {
-    case "-": {
-      op = num1 - num2;
-      break;
-    }
-  }
-  switch (op) {
-    case "*": {
-      op = num1 * num2;
-      break;
-    }
-  }
-  switch (op) {
-    case "/": {
-      op = num1 / num2;
-      break;
-    }
-  }
-}
+//   switch (op) {
+//     case "+": {
+//       op = num1 + num2;
+//       break;
+//     }
+//   }
+//   switch (op) {
+//     case "-": {
+//       op = num1 - num2;
+//       break;
+//     }
+//   }
+//   switch (op) {
+//     case "*": {
+//       op = num1 * num2;
+//       break;
+//     }
+//   }
+//   switch (op) {
+//     case "/": {
+//       op = num1 / num2;
+//       break;
+//     }
+//   }
+// }
 
-const operRes = calcNeededOper(5, 5);
-console.log(operRes);
+// const operRes = calcNeededOper(5, 5);
+// console.log(operRes);
