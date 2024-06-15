@@ -4,14 +4,18 @@ function getText(text) {
   return "You wrote " + text;
 }
 
-const textRes = getText("test");
+const textRes = getText("1");
 
 console.log(textRes);
 
 console.log("Task 2");
 
 function getNum(num) {
-  return 5 + num;
+  if (isNaN(num)) {
+    return null;
+  }
+
+  return 5 + Number(num);
 }
 
 const numRes = getNum(25);
@@ -21,6 +25,9 @@ console.log(numRes);
 console.log("Task 3");
 
 function getSumOfTwoStrings(string1, string2) {
+  if (typeof (string1 && string2) !== "string") {
+    return null;
+  }
   return string1 + string2;
 }
 
@@ -31,10 +38,14 @@ console.log(stringRes);
 console.log("Task 4");
 
 function getProdOfTwo(num1, num2) {
-  return num1 * num2;
+  if (isNaN(num1 && num2)) {
+    return null;
+  }
+
+  return Number(num1) * Number(num2);
 }
 
-const numOfTwoRes = getProdOfTwo(25, 2);
+const numOfTwoRes = getProdOfTwo(25.3, "5");
 
 console.log(numOfTwoRes);
 
@@ -42,6 +53,13 @@ console.log("Task 5");
 
 function getDivOfTwo(num1, num2) {
   const sumOfTwoDiv = num1 % num2;
+
+  if (
+    typeof (num1 && num2) !== "number" &&
+    typeof (num1 && num2) !== "string"
+  ) {
+    return null;
+  }
 
   if (sumOfTwoDiv === 0) {
     console.log(true);
@@ -52,7 +70,7 @@ function getDivOfTwo(num1, num2) {
   return;
 }
 
-getDivOfTwo(25, 25);
+getDivOfTwo(25, "25");
 
 console.log("Task 6");
 
@@ -73,7 +91,7 @@ console.log(getSquareOfCircle(5));
 console.log("Task 8*");
 
 function calcNeededOper(num1, num2) {
-  return 
+  return;
 }
 
 console.log(calcNeededOper(6, 8));
