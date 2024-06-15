@@ -91,7 +91,35 @@ console.log(getSquareOfCircle(5));
 console.log("Task 8*");
 
 function calcNeededOper(num1, num2) {
-  return;
+  window.prompt("Введите желаемый оператор", "+");
+
+  let op = num1 + num2;
+
+  switch (op) {
+    case "+": {
+      op = num1 + num2;
+      break;
+    }
+  }
+  switch (op) {
+    case "-": {
+      op = num1 - num2;
+      break;
+    }
+  }
+  switch (op) {
+    case "*": {
+      op = num1 * num2;
+      break;
+    }
+  }
+  switch (op) {
+    case "/": {
+      op = num1 / num2;
+      break;
+    }
+  }
 }
 
-console.log(calcNeededOper(6, 8));
+const operRes = calcNeededOper(5, 5);
+console.log(operRes);
