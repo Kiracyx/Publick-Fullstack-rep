@@ -88,38 +88,34 @@ function getSquareOfCircle(radius) {
 
 console.log(getSquareOfCircle(5));
 
-// console.log("Task 8*");
+console.log("Task 8*");
 
-// function calcNeededOper(num1, num2) {
-//   window.prompt("Введите желаемый оператор", "+");
+function calcNeededOper(num1, num2, op) {
+  num1 = Number(num1);
+  num2 = Number(num2);
+  op = String(op);
 
-//   let op = num1 + num2;
+  let answer = 0;
 
-//   switch (op) {
-//     case "+": {
-//       op = num1 + num2;
-//       break;
-//     }
-//   }
-//   switch (op) {
-//     case "-": {
-//       op = num1 - num2;
-//       break;
-//     }
-//   }
-//   switch (op) {
-//     case "*": {
-//       op = num1 * num2;
-//       break;
-//     }
-//   }
-//   switch (op) {
-//     case "/": {
-//       op = num1 / num2;
-//       break;
-//     }
-//   }
-// }
+  switch (op) {
+    case "+":
+      answer = num1 + num2;
+      break;
 
-// const operRes = calcNeededOper(5, 5);
-// console.log(operRes);
+    case "-":
+      answer = num1 - num2;
+      break;
+
+    case "*":
+      answer = num1 * num2;
+      break;
+
+    case "/":
+      answer = num1 / num2;
+      break;
+
+    default:
+      console.log("Введите числа и оператор");
+  }
+  return answer;
+}
