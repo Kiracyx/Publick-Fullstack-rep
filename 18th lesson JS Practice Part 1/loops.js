@@ -32,27 +32,39 @@ getNumLoop(5);
 
 console.log("Task 4");
 
-function getMultiplNum(num1, num2) {
-  let sum = "";
+function getMultiplNumber(num1, num2) {
+  let sum = 0;
 
   for (let i = 0; i < 5; i++) {
-    sum = num1 * num2;
-    console.log(sum);
+    sum += num1 * num2;
   }
+  console.log(Number(sum));
 }
 
-getMultiplNum(105, 3);
-
+getMultiplNumber(105, 2);
 
 console.log("Task 5");
 
-function getMultiplNumber(num1) {
-  let sum = "";
+function getMultiplNum(num) {
+  let sumNum = 1;
 
-  for (let i = 0; i < 5; i++) {
-    sum = num1 * [i];
-    console.log(sum);
+  for (let i = 1; i <= num; i++) {
+    sumNum *= i;
   }
+  return sumNum;
 }
 
-getMultiplNumber(105);
+console.log(getMultiplNum(5));
+
+console.log("Task 6");
+
+function calcPower(val, power) {
+  let sumPow = 1;
+
+  for (let i = 0; i < power; i++) {
+    sumPow *= val;
+  }
+  return sumPow;
+}
+
+console.log(calcPower(5, 3));
