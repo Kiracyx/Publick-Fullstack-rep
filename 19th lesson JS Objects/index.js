@@ -23,8 +23,10 @@ const safehouse = {
 };
 
 function reduceTomatoes(sklad) {
-  safehouse.tomato -= 10;
+  sklad.tomato -= 10;
 }
+
+reduceTomatoes(safehouse);
 
 for (let i = 0; i < 3; i++) {
   console.log(
