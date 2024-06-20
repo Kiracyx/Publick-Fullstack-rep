@@ -6,6 +6,8 @@ const compTail = {
 
 console.log(compTail[`tail${"Cm"}`], `and`, compTail[`tail${"Dm"}`]);
 
+console.log(compTail.tailCm + " and " + compTail.tailDm);
+
 // Task2
 
 const compBox = {
