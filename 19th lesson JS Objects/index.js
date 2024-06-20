@@ -8,6 +8,7 @@ const apple = {
 };
 
 // вычисляемые свойства
+
 const safehouse = {
   appleGreen: 30,
   appleRed: 50,
@@ -49,3 +50,29 @@ function color(index) {
     return "Yellow";
   }
 }
+
+//Tasks
+
+const iLiveIn = "Ukraine";
+
+console.log(`Я живу в ${iLiveIn}`);
+
+//
+
+const firstname = "Ivan";
+const id = 39;
+
+console.log(`${firstname}_${id}`);
+
+//
+
+const countryA = "Belorussia";
+const countryB = "USA";
+const countryC = "GreatBritain";
+const cityA = "London";
+const cityB = "Minsk";
+const cityC = "NY";
+
+console.log(`${cityA} is a capital of ${countryC}`);
+console.log(`${cityB} is a capital of ${countryA}`);
+console.log(`${cityC} is a capital of ${countryB}`);
