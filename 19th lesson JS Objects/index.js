@@ -51,7 +51,7 @@ function color(index) {
   }
 }
 
-//Tasks
+//Tasks Template literals
 
 const iLiveIn = "Ukraine";
 
