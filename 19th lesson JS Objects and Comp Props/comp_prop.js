@@ -4,9 +4,7 @@ const compTail = {
   tailDm: 12.5,
 };
 
-console.log(toString(compTail[`tail${"Cm"}`]), "and", compTail[`tail${"Dm"}`] + "");
-
-console.log(compTail.tailCm + " and " + compTail.tailDm);
+console.log(`${compTail.tailCm} and ${compTail.tailDm}`);
 
 // Task2
 

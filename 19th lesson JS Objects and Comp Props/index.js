@@ -65,14 +65,15 @@ const id = 39;
 console.log(`${firstname}_${id}`);
 
 //
+const capitals = {
+  countryA: "Belorussia",
+  countryB: "USA",
+  countryC: "GreatBritain",
+  cityA: "London",
+  cityB: "Minsk",
+  cityC: "NY",
+};
 
-const countryA = "Belorussia";
-const countryB = "USA";
-const countryC = "GreatBritain";
-const cityA = "London";
-const cityB = "Minsk";
-const cityC = "NY";
-
-console.log(`${cityA} is a capital of ${countryC}`);
-console.log(`${cityB} is a capital of ${countryA}`);
-console.log(`${cityC} is a capital of ${countryB}`);
+console.log(`${capitals.cityA} is a capital of ${capitals.countryC}`);
+console.log(`${capitals.cityB} is a capital of ${capitals.countryA}`);
+console.log(`${capitals.cityC} is a capital of ${capitals.countryB}`);
