@@ -74,9 +74,9 @@ const capitals = {
   cityC: "NY",
   giveInfo: function () {
     return `
-    1 ${capitals.cityA} is a capital of ${capitals.countryC}
-    2 ${capitals.cityB} is a capital of ${capitals.countryA}
-    3 ${capitals.cityC} is a capital of ${capitals.countryB}
+    1 ${this.cityA} is a capital of ${this.countryC}
+    2 ${this.cityB} is a capital of ${this.countryA}
+    3 ${this.cityC} is a capital of ${this.countryB}
     `;
   },
 };
