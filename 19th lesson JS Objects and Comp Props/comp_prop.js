@@ -4,7 +4,7 @@ const compTail = {
   tailDm: 12.5,
 };
 
-console.log(compTail[`tail${"Cm"}`], "and", compTail[`tail${"Dm"}`]);
+console.log(toString(compTail[`tail${"Cm"}`]), "and", compTail[`tail${"Dm"}`] + "");
 
 console.log(compTail.tailCm + " and " + compTail.tailDm);
 
@@ -22,7 +22,7 @@ for (let i = 0; i <= 4; i++) {
   console.log(
     compBox[
       `box${boxNum(i)}` // шаблонные строки
-    ]
+    ] + ""
   );
 }
 
