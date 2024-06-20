@@ -19,12 +19,12 @@ const compBox = {
 for (let i = 0; i <= 4; i++) {
   console.log(
     compBox[
-      `box${color(i)}` // шаблонные строки
+      `box${boxNum(i)}` // шаблонные строки
     ]
   );
 }
 
-function color(index) {
+function boxNum(index) {
   if (index === 0) {
     return "1";
   }
