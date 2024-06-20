@@ -4,7 +4,7 @@ const compTail = {
   tailDm: 12.5,
 };
 
-console.log(compTail[`tail${"Cm"}`], `and`, compTail[`tail${"Dm"}`]);
+console.log(compTail[`tail${"Cm"}`], "and", compTail[`tail${"Dm"}`]);
 
 console.log(compTail.tailCm + " and " + compTail.tailDm);
 
