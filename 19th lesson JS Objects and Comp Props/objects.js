@@ -46,32 +46,60 @@ Jiraph.waky();
 
 console.log(Jiraph.asleep);
 
-class motorcycle {
-  brand = null;
-  tankCapacity = null;
-  engineModel = null;
-  seats = null;
-  currentSpeed = 100;
-  constructor(brand1, tankCapacity1, engineModel1, seats1) {
-    this.brand = brand1;
-    this.tankCapacity = tankCapacity1;
-    this.engineModel = engineModel1;
-    this.seats = seats1;
-  }
+// class motorcycle {
+//   brand = null;
+//   tankCapacity = null;
+//   engineModel = null;
+//   seats = null;
+//   currentSpeed = 100;
+//   constructor(brand1, tankCapacity1, engineModel1, seats1) {
+//     this.brand = brand1;
+//     this.tankCapacity = tankCapacity1;
+//     this.engineModel = engineModel1;
+//     this.seats = seats1;
+//   }
 
-  increaseSpeed() {
+//   increaseSpeed() {
+//     return (this.currentSpeed += 55);
+//   }
+//   decreaseSpeed() {
+//     return (this.currentSpeed -= 20);
+//   }
+//   stopTheVehicle() {
+//     return (this.currentSpeed = 0);
+//   }
+// }
+
+// const HYZ = new motorcycle("GeonScrumbler", 12, "asda212", 2);
+
+// console.log(HYZ);
+// HYZ.increaseSpeed();
+// console.log(HYZ);
+
+const motorcycle = function (
+  brand = null,
+  tankCap = null,
+  engModel = null,
+  seats = null
+) {
+  this.brand = brand;
+  this.tankCap = tankCap;
+  this.engModel = engModel;
+  this.seats = seats;
+  this.currentSpeed = 100;
+  this.increaseSpeed = function () {
     return (this.currentSpeed += 55);
-  }
-  decreaseSpeed() {
+  };
+  this.decreaseSpeed = function () {
     return (this.currentSpeed -= 20);
-  }
-  stopTheVehicle() {
+  };
+  this.stopTheVehicle = function () {
     return (this.currentSpeed = 0);
-  }
-}
+  };
+};
 
-const HYZ = new motorcycle("GeonScrumbler", 12, "asda212", 2);
+const mot1 = new motorcycle(1, 2, 3, 4);
 
-console.log(HYZ);
-HYZ.increaseSpeed();
-console.log(HYZ);
+console.log(mot1);
+mot1.increaseSpeed();
+console.log(mot1);
