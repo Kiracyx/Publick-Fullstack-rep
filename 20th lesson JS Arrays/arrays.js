@@ -157,7 +157,7 @@ console.log(ar6.join(" && "));
 
 console.log("Task 13");
 
-class products {
+class Products {
   brand = null;
   price = null;
   amountInStorage = null;
@@ -170,11 +170,11 @@ class products {
   }
 }
 
-const prod1 = new products("Geon Scrumbler", 2000, 6, true);
-const prod2 = new products("Ducatti Scrumbler", 16500, 4, true);
-const prod3 = new products("Honda Scrumbler", 12300, 0, false);
-const prod4 = new products("BMW Scrumbler", 19199, 5, true);
-const prod5 = new products("RoyalField Scrumbler", 25999, 0, false);
+const prod1 = new Products("Geon Scrambler", 2000, 6, true);
+const prod2 = new Products("Ducatti Scrambler", 16500, 4, true);
+const prod3 = new Products("Honda Scrambler", 12300, 0, false);
+const prod4 = new Products("BMW Scrambler", 19199, 5, true);
+const prod5 = new Products("RoyalField Scrambler", 25999, 0, false);
 
 console.log(prod1, prod2, prod3, prod4, prod5);
 
@@ -217,3 +217,26 @@ function addToBasket() {
 addToBasket();
 
 console.log(basket);
+
+// Task 16-17
+
+console.log("Task 16-17");
+
+class User {
+  constructor(username, age, isMale, password) {
+    this.username = username;
+    this.age = age;
+    this.isMale = isMale;
+    this.password = password;
+  }
+}
+
+const users = [];
+
+for (let i = 1; i <= 5; i++) {
+  users.push(
+    new User("username" + i, 10 + i, i % 2 === 0 ? true : false, "password" + i)
+  );
+}
+
+console.log(users);
