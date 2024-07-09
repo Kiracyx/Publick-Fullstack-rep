@@ -1,62 +1,80 @@
-class University {
-  constructor(name = null, city = null, yearOfFounding = null, faculties) {
-    this.name = name;
-    this.city = city;
-    this.yearOfFounding = yearOfFounding;
-    this.faculties = faculties;
+/**
+ *                                                                                     (extends) Наследование
+ */
+
+// class Cat {
+//   constructor(tail = null, mustache = null, paws = null, fur = null) {
+//     this.tail = tail;
+//     this.mustache = mustache;
+//     this.paws = paws;
+//     this.fur = fur;
+//   }
+
+//   sayPurr() {
+//     return "Purr";
+//   }
+//   sayMeow() {
+//     return "Meow";
+//   }
+// }
+
+// class Lion extends Cat {
+//   constructor(
+//     tail = null,
+//     mustache = null,
+//     paws = null,
+//     fur = null,
+//     mane = null
+//   ) {
+//     super(tail, mustache, paws, fur);
+//     this.mane = mane;
+//   }
+//   sayRoar() {
+//     return "Rrrrrr!";
+//   }
+// }
+
+/**
+ *                                                                                         Getter/Setter
+ */
+
+// class Password {
+//   constructor(pass) {
+//     this._pass = pass;
+//   }
+//   get pass() {
+//     if (this.hasPassWhown === undefined) {
+//       this.hasPassWhown = true;
+//       return this._pass;
+//     }
+//     return null;
+//   }
+
+//   set pass(value) {
+//     this._pass = value;
+//   }
+// }
+
+class Person {
+  constructor(firstname) {
+    this.firstname = firstname;
+    this.indicator = 0;
   }
 
-  addFaculty(facultyName) {
-    this.faculties.push(facultyName);
-    return this.faculties;
+  get getFirstname() {
+    return this._firstname;
   }
-  registerStudent(studentInstance, facultyName) {
-    if (!this.faculties.includes(facultyName)) {
-      throw new Error(
-        "faculties array doesn't includ facultyName: " + facultyName
-      );
-    }
-    if (!studentInstance instanceof Student) {
-      throw new Error("studentInstance is not an instanceof Student");
+
+  set setFirstname(newValue) {
+    if (typeof newValue !== "string") {
+      throw new TypeError('newValue should be typeof "string"');
     }
 
-    studentInstance.yearOfRegistry = new Date().getFullYear();
-    studentInstance.facultyName = facultyName;
-    studentInstance.universityName = this.name;
-    return studentInstance;
+    if (this.indicator >= 3) {
+      throw new RangeError("Cannot rename person more than 3 times");
+    }
+    this.indicator += 1;
+
+    this.firstname = newValue;
   }
 }
-
-class Student {
-  constructor(fullName = null, age = null, examScore = null) {
-    this.fullName = fullName;
-    this.age = age;
-    this.examScore = examScore;
-    this.yearOfRegistry = null;
-    this.universityName = null;
-    this.facultyName = null;
-  }
-
-  isGraduated() {
-    let result = new Date().getFullYear() - this.yearOfRegistry;
-    if (result < 5) {
-      throw new Error("Is not graduated yet!");
-    }
-  }
-}
-
-const kpi = new University("Kiev Polithechnical Institute", "Kiev", 1937, [
-  "Faculty of Engineering",
-  "Faculty of Physics",
-  "Faculty of Economics",
-]);
-
-const student1 = new Student("John Doe", 19, 140);
-
-console.log(kpi);
-
-console.log(student1);
-
-const regResult = kpi.registerStudent(student1, "Faculty of Engineering");
-
-console.log(regResult);
