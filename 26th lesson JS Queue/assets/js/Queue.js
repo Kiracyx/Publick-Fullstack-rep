@@ -1,24 +1,31 @@
 class Queue {
   constructor() {
+    this.queue = {};
+    
+    this.tail = 0;
+
     for (let i = 0; i < arguments.length; i++) {
-      this[i] = arguments[i];
+      const element = arguments[i];
+      this.push(element);
     }
+
     this.tail = arguments.length;
+
     this.head = 0;
   }
 
   push(element) {
-    this[this.tail++] = element;
+    this.queue[this.tail++] = element;
   }
 
-  pop() {
+  shift() {
     if (this.tail === this.head) {
       return undefined;
     }
 
-    const element = this[this.head];
+    const element = this.queue[this.head];
 
-    delete this[this.head++];
+    delete this.queue[this.head++];
 
     return element;
   }
