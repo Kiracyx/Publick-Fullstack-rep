@@ -8,27 +8,61 @@
 .btn-wrapper {
   display: flex;
 
-  align-items: center;
-
   width: 500px;
 }
 
 .btn {
   width: 100px;
-  height: 100px;
+  /* height: 300px; */
 }
 
-.btn-anyNumber {
+/* .btn-anyNumber {
   width: 150px;
   height: 100px;
-}
+} */
 
-#counterDisplay {
+.slImgdisplay {
   border: 3px solid black;
   width: 300px;
-  height: 100px;
+  height: 300px;
 
   align-content: center;
 
   text-align: center;
+}
+
+.borderZero {
+  border: 3px solid black;
+}
+
+.displayGreen {
+  border: 3px solid green;
+}
+
+.displayRed {
+  border: 3px solid red;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.slides-circles {
+  display: flex;
+  position: absolute;
+
+  width: 100px;
+
+  justify-content: space-between;
+
+  bottom: -10px;
+  left: 40%;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+
+  background-color: darkblue;
+  border-radius: 50%;
 }

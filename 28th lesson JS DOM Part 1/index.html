@@ -9,10 +9,19 @@
   </head>
   <body>
     <div class="btn-wrapper">
-      <button class="btn" onclick="incrementOne()">+1</button>
-      <div id="counterDisplay"></div>
-      <button class="btn" onclick="decrementOne()">-1</button>
-      <button class="btn-anyNumber" onclick="incrementAny()">Any number</button>
+      <button class="btn" onclick="decrementOne()" onload=""><</button>
+      <div class="slider-wrapper">
+        <img
+          id="sliderImages"
+          class="slImgdisplay"
+          src=""
+          alt="Flipped images"
+        />
+        <div class="slides-circles">
+        </div>
+      </div>
+      <button class="btn" onclick="incrementOne()">></button>
+      <!-- <button class="btn-anyNumber" onclick="addUserNumber()">Any number</button> -->
     </div>
   </body>
 </html>
