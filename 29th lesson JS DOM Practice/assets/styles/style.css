@@ -1,0 +1,15 @@
+.test-div {
+  color: brown;
+  font-size: 5rem;
+}
+
+.li-elem {
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.span {
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(153, 0, 0);
+  background-color: antiquewhite;
+}
