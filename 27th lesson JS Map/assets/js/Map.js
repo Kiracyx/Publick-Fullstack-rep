@@ -1,36 +1,14 @@
-class Queue {
-  constructor() {
-    this.queue = {};
-    
-    this.tail = 0;
+const map1 = new Map();
 
-    for (let i = 0; i < arguments.length; i++) {
-      const element = arguments[i];
-      this.push(element);
-    }
+map1.set("userId", 1);
+map1.set(undefined, "default");
+map1.set("default", undefined);
 
-    this.tail = arguments.length;
+console.log(map1);
+console.log(map1.get("default"));
+console.log(map1.get(undefined));
+console.log(map1.has("userId"));
 
-    this.head = 0;
-  }
+map1.set("userId", 2);
 
-  push(element) {
-    this.queue[this.tail++] = element;
-  }
-
-  shift() {
-    if (this.tail === this.head) {
-      return undefined;
-    }
-
-    const element = this.queue[this.head];
-
-    delete this.queue[this.head++];
-
-    return element;
-  }
-}
-
-const queue = new Queue(1, 2, 3, 4, 5);
-
-console.log(queue);
+console.log(map1);
