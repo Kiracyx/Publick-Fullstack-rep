@@ -179,7 +179,7 @@
 // const ar7 = ar6.slice();
 
 /**
- *                                                                             Spread
+ *                                                                        Spread
  */
 
 // const ar7 = [...ar6];
@@ -227,7 +227,7 @@
 // console.log(func2(ar10, ar11));
 
 /**
- *                                                                             Destructuring of Arrays
+ *                                                                        Destructuring of Arrays
  */
 
 // const ar12 = ["first", 2, "third", 4, "fifth"];
@@ -255,7 +255,7 @@
 // console.log(getSecAndThirdElementsF(ar12));
 
 /**
- *                                                                             Destructuring of Objects
+ *                                                                        Destructuring of Objects
  */
 
 // const obj1 = {
@@ -332,7 +332,7 @@
 // console.log(userStreetName);
 
 /**
- *                                                                             try{} catch {} finally {}
+ *                                                                        try{} catch {} finally {}
  */
 
 // try {
@@ -342,7 +342,7 @@
 // }
 
 /**
- *                                                                             Closure
+ *                                                                         Closure
  */
 
 function outerFn() {
