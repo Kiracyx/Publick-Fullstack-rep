@@ -21,7 +21,7 @@ const { encode } = require("querystring");
 //   console.log(file);
 // });
 
-        "First task"
+("First task");
 
 // fs.writeFile(
 //   "/Users/vkont/OneDrive/Рабочий стол/Learning/JS-Fullstack-repository/31th_lesson_Node.js_intro/tmp/helloFile.txt",
@@ -32,7 +32,7 @@ const { encode } = require("querystring");
 
 fs.readFile(
   "/Users/vkont/OneDrive/Рабочий стол/Learning/JS-Fullstack-repository/31th_lesson_Node.js_intro/tmp/helloFile.txt",
-  { encoding: "utf8" }
+  "utf8"
 ).then((file) => {
   console.log(file);
 });
